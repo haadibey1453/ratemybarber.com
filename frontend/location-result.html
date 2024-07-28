@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Results - Rate My Barber</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lemon:400|Marko+One:400|Karla:400|Crimson+Text:700|Source+Serif+Pro:400,700,900|Roboto+Mono:400|Anonymous+Pro:400">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-black text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white ms-4" href="index.html">rateMyBarber.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ms-auto me-4" role="search">
+                    <a href="sign-in.html" class="nav-link me-4 mt-2" aria-current="page" href="#">Sign In</a>
+                    <a href="register.html" class="btn btn-dark register-btn text-caps bg-white text-black">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-------------------------------------------->
+    <!-------------------------------------------->
+
+    <!--Location Display Section-->
+    <section class="locations-display-section bg-black text-white pb-4">
+        <div class="container-fluid ps-5 pe-5 ">
+            <div class="row py-5 d-flex justify-content-center">
+                <div class="col-lg-7">
+                    <form class="form-container">
+                        <input class="form-control me-2 search-bar ps-4" type="search" placeholder="Search City Name"
+                            aria-label="Search">
+                        <button class="search-button me-2" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <!--Card One-->
+                <a href="barber-details.html" class="ps-0 pe-0 card-link">
+                    <div class="cards">
+                        <div class="rating bg-green text-black">4.5</div>
+                        <div class="card-content">
+                            <div class="name text-black">Marcus Harris</div>
+                            <div class="address">Mister Cutts Salon - 9999000999</div>
+                            <div class="speciality text-black">SPECIALITY: Fade, Taper, Buzz</div>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Card Two-->
+                <a href="barber-details.html" class="ps-0 pe-0 card-link">
+                    <div class="cards">
+                        <div class="rating bg-red text-black">1.4</div>
+                        <div class="card-content">
+                            <div class="name text-black">Wayne Edward</div>
+                            <div class="address">City Salon - 99990009789</div>
+                            <div class="speciality text-black">SPECIALITY: Trim</div>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Card Three-->
+                <a href="barber-details.html" class="ps-0 pe-0 card-link">
+                    <div class="cards">
+                        <div class="rating bg-yellow text-black">3.4</div>
+                        <div class="card-content">
+                            <div class="name text-black">William Farrel</div>
+                            <div class="address">Barber House - 99990009789</div>
+                            <div class="speciality text-black">SPECIALITY: Dread Locks</div>
+                        </div>
+                    </div>
+                </a>
+
+                <!--Card Three-->
+                <a href="barber-details.html" class="ps-0 pe-0 card-link">
+                    <div class="cards">
+                        <div class="rating bg-grey text-black">NA</div>
+                        <div class="card-content">
+                            <div class="name text-black">William Farrel</div>
+                            <div class="address">Barber House - 99990009789</div>
+                            <div class="speciality text-black">SPECIALITY: n/a</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    </section>
+
+    <!-------------------------------------------->
+    <!-------------------------------------------->
+
+    <!--Footer-->
+    <div class="container-fluid bg-black text-white footer">
+        <div class="row">
+            <div class="col-lg-2">
+                <p class="footer-text text-caps">Contact Us:</p>
+            </div>
+            <div class="col-lg-1">
+                <a href="https://www.instagram.com" class="footer-links footer-text text-caps text-white">Instagram</a>
+            </div>
+            <div class="col-lg-1 x-link">
+                <a href="https://www.twitter.com" class="footer-links footer-text text-caps text-white">X</a>
+            </div>
+            <div class="col-lg-1">
+                <a href="mailto:haadibey1@gmail.com" class="footer-links footer-text text-caps text-white">Email</a>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------------->
+    <!-------------------------------------------->
+
+    <!--JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

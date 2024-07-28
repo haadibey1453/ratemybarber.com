@@ -1,0 +1,481 @@
+/* Rate My Barber */
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-green {
+    background: #38B82D;
+}
+
+.bg-red {
+    background: #D12A2A;
+}
+
+.bg-yellow {
+    background: #E1B828;
+}
+
+.bg-grey {
+    background: #606060;
+}
+
+.bg-light-grey {
+    background-color: #D9D9D9;
+}
+
+.r-35 {
+    border-radius: 35px;
+}
+
+.white-color {
+    color: white;
+}
+
+.pad-bottom-eight {
+    padding-bottom: 10rem !important;
+}
+
+/* -------------------------------- */
+/*              NAVBAR              */
+/* -------------------------------- */
+.navbar-brand {
+    font-family: Lemon;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.nav-link {
+    font-family: 'Marko One';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    display: inline;
+}
+
+.text-caps {
+    text-transform: uppercase;
+}
+
+.register-btn {
+    font-family: Marko One;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font: 'Marko One';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user-info i {
+    margin-left: 10px;
+}
+
+.user-info,
+.auth-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .user-info i,
+.navbar .auth-links a {
+    margin-left: 10px;
+}
+
+.nav-text {
+    font-family: 'Marko One';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.settings-icon {
+    text-decoration: none;
+    color: black;
+}
+
+/* -------------------------------- */
+/*           HERO SECTION           */
+/* -------------------------------- */
+.hero-section {
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+.hero-heading {
+    font-family: Marko One;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 60px;
+}
+
+.search-bar {
+    background-color: #F8EFEF;
+    border-radius: 50px;
+    font-family: Marko One;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.form-container {
+    position: relative;
+}
+
+.search-bar::placeholder {
+    color: gray;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.floating-btn {
+    border: 0px;
+    color: black;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+.floating-card {
+    display: none;
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+}
+
+.floating-card a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display';
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-container .input-field {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.paper-plane-btn {
+    border: none;
+    background: none;
+}
+
+/* -------------------------------- */
+/*     LOCATION DISPLAY SECTION     */
+/* -------------------------------- */
+.card-link {
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+    background: #D9D9D9;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.rating {
+    padding: 10px;
+    font-family: 'Crimson Text';
+    font-size: 26px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-family: 'Source Serif Pro';
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.address {
+    font-family: 'Roboto Mono';
+    font-size: 13px;
+    color: #757575;
+}
+
+.speciality {
+    font-size: 13px;
+    font-family: 'Anonymous Pro';
+    font-weight: 400;
+}
+
+/* -------------------------------- */
+/*      BARBER DETAIL SECTION       */
+/* -------------------------------- */
+.barber-detail-section {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.barber-detail-container {
+    background-color: #D9D9D9;
+    padding-top: 50px;
+    padding-bottom: 8rem;
+    position: relative;
+}
+
+.barber-detail-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.barber-name {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 28px;
+    text-decoration: underline;
+}
+
+.barber-shop {
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.card-title {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card-subtitle,
+.card-text,
+.card-rating {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.black-floating-btn {
+    background-color: black;
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------------- */
+/*   REGISTRATION OPTIONS SECTION   */
+/* -------------------------------- */
+.registration-option {
+    padding-bottom: 15px;
+}
+
+.registeration-option-container {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.register-heading {
+    font-family: 'Merriweather';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.registeration-option-btn {
+    border: 0px;
+    border-radius: 20px;
+    width: 70%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.hr-line {
+    border-top: 2px solid black;
+    width: 75%;
+}
+
+.already-account {
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.sign-in-btn {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: black;
+}
+
+/* -------------------------------- */
+/*    REGISTRATION FORM SECTION     */
+/* -------------------------------- */
+.registration-form {
+    padding-bottom: 15px;
+}
+
+.registeration-form-container {
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.registration-form-input {
+    width: 75%;
+    border-radius: 0px;
+}
+
+.registration-form-input::placeholder {
+    font-family: Marko One;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.submit-sign-in-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: Marko One;
+    font-size: 17x;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+/* -------------------------------- */
+/*              FOOTER              */
+/* -------------------------------- */
+
+.footer {
+    padding-left: 35px;
+}
+
+.footer-text {
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: black;
+}
+
+.x-link {
+    display: flex;
+    justify-content: center;
+}
