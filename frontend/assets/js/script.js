@@ -1,4 +1,4 @@
-var isSignedIn = true; // Change this to false to simulate a non-signed-in user
+var isSignedIn = false; // Change this to false to simulate a non-signed-in user
 var userName = "John Doe"; // Example user name
 
 document.addEventListener('DOMContentLoaded', function () {
